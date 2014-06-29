@@ -1,0 +1,7 @@
+*
+
+!/.gitignore
+!/.gitmodules
+!/home/.zshrc
+!/home/.zprofile
+!/home/.vimrc
