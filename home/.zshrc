@@ -59,6 +59,10 @@ export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export GOPATH="$HOME/gopath"
+export PATH="$GOPATH/bin:$PATH"
+
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 export LANG=ja_JP.UTF-8
