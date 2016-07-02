@@ -42,3 +42,6 @@ export PYENV_ROOT=/usr/local/var/pyenv
 export PATH="$PYENV_ROOT:$PATH"
 
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+alias brew="env PATH=${PATH//$(pyenv root)\/shims:/} brew"
+
